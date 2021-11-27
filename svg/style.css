@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  width: 460px;
+  height: 540px;
+  margin: 20px 40px;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 460px;
+  height: 460px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 1;
+
+  box-shadow: 0 60px 0 40px #fff;
+}
+
+.box .circle {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 460px;
+  width: 460px;
+  border-radius: 50%;
+  border: 1px solid #d2c6bf;
+}
+.box .circle2 {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 460px;
+  width: 460px;
+  z-index: 2;
+  border-left: solid black 8px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-radius: 50%;
+  transform: rotate(-6deg);
+}
+.box .circle img,
+.box img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 540px;
+}
+.box img {
+  z-index: ;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 465px;
+  height: 465px;
+  z-index: 1000;
+}
+svg circle {
+  width: 465px;
+  height: 465px;
+  bottom: 0;
+  left: 0;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translateX(5px);
+}

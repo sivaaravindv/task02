@@ -1,0 +1,67 @@
+.con {
+  width: 90vw;
+  height: 90vh;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  max-width: 700px;
+  max-height: 700px;
+  min-width: 400px;
+  min-height: 400px;
+  background-color: burlywood;
+}
+
+.top-con {
+  height: 50%;
+  width: 100%;
+  background-color: white;
+}
+.bot-con {
+  height: 50%;
+  width: 100%;
+  background-color: teal;
+  display: flex;
+}
+.left {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-bottom: 50%;
+}
+.right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-bottom: 50%;
+}
+
+.right img,
+.left img {
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  height: 100%;
+}
+.top-box {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: rgb(31, 11, 207);
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+}
