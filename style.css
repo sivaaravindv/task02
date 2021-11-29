@@ -178,7 +178,9 @@ nav .nav__menu {
   margin-bottom: 2.5rem;
   color: #a6a7af;
 }
-
+.overpic {
+  display: none;
+}
 /**********************showcase*********/
 .showcase .container {
   margin: 0 auto;
@@ -239,7 +241,9 @@ nav .nav__menu {
   transform: translate(-50%, -50%);
   height: 260px;
 }
-
+.overpic1 {
+  display: none;
+}
 .showcase .box::before {
   box-shadow: none;
 }
@@ -1044,5 +1048,19 @@ nav .nav__menu {
   .discover-section .grid-2,
   .discover-section .grid-1 {
     width: 50%;
+  }
+  .overpic {
+    display: block;
+    width: 380px;
+    left: 0;
+    transform: scaleX(-1) translate(-120px, 123px);
+    position: absolute;
+  }
+  .overpic1 {
+    display: block;
+    width: 380px;
+    left: 0;
+    transform: translate(51rem, 30rem) rotateY(180deg);
+    position: absolute;
   }
 }
