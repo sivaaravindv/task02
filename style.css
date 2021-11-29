@@ -32,7 +32,8 @@ nav {
   margin: 1rem 0;
 }
 .logo {
-  margin: 1rem 0;
+  margin-left: 0.3rem;
+  margin-top: 1rem;
 }
 
 .logo h1 a {
