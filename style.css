@@ -1348,6 +1348,9 @@ nav .nav__menu {
   }
   .making-section .container .grid-1 {
     width: 40%;
+    margin-right: 3rem;
+    padding-left: 1rem;
+}
   }
   .making-section .container .grid-2 {
     width: 50%;
