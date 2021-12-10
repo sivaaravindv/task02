@@ -959,7 +959,15 @@ nav .nav__menu {
     border-radius: 50%;
     z-index: 1;
 
-    box-shadow: 0px 60px 0 40px #fff;
+    box-shadow: 0px 52px 0 40px #fff;
+  }
+
+  .chef-section .box::before {
+    box-shadow: 0px 53px 0 40px #fff;
+  }
+
+  .discover-section .box::before {
+    box-shadow: 0px 41px 0 40px #fff;
   }
 
   .box .circle {
@@ -1350,7 +1358,6 @@ nav .nav__menu {
     width: 40%;
     margin-right: 3rem;
     padding-left: 1rem;
-}
   }
   .making-section .container .grid-2 {
     width: 50%;
