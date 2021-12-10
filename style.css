@@ -1021,7 +1021,7 @@ nav .nav__menu {
   }
   .contact-section .container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: left;
   }
